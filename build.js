@@ -33,6 +33,7 @@ const mxGraph = (svg) => {
     `labelPosition=center;` +
     `verticalLabelPosition=bottom;` +
     `verticalAlign=top;` +
+    `aspect=fixed;` +
     `image=data:image/svg+xml,${new Buffer.from(svg).toString("base64")};` +
     `"` +
     ` vertex="1"` +
