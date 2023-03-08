@@ -30,12 +30,15 @@ const mxGraph = (svg) => {
     ` style="` +
     `shape=image;` +
     `editableCssRules=.*;` +
+    `labelPosition=center;` +
+    `verticalLabelPosition=bottom;` +
+    `verticalAlign=top;` +
     `image=data:image/svg+xml,${new Buffer.from(svg).toString("base64")};` +
     `"` +
     ` vertex="1"` +
     ` parent="1"` +
     `>` +
-    `<mxGeometry width="144" height="144" as="geometry" />` +
+    `<mxGeometry width="64" height="64" as="geometry" />` +
     `</mxCell>` +
     `</root>` +
     `</mxGraphModel>`
